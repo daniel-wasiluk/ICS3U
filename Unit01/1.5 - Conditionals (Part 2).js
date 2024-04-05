@@ -55,22 +55,38 @@ else {
 }
 
 // Optional challenge 2: Random number characteristics
-let random_number = Math.random() * 10;     // Get a single-digit value (with decimals)
-random_number = Math.floor(random_number);  // Chop off the decimals
+let random_number = Math.random() * 10;
+random_number = Math.floor(random_number); 
 
 console.log(`Random number: ${randomNumber}`);
 
-// Check if the value is zero
+// check if the value is zero
 if (randomNumber === 0){
     console.log("The value is zero.");
 }
-// Check if the value is even
+// check if the value is even
 if (randomNumber % 2 === 0){
     console.log("The value is even.");
 }
-// Check if the value is divisible by 2 and 3
+// check if the value is divisible by 2 and 3
 if (randomNumber % 2 === 0 && randomNumber % 3 === 0){
     console.log("The value is divisible by 2 and 3.");
 }
 
-//I STILL HAVE TO DO THIS
+// extra prime number thingy
+const value = Math.floor(Math.random() * 10);
+
+console.log(`Generated value: ${value}`);
+
+// logs if the value is zero
+value === 0 && console.log("The value is zero.");
+
+// logs if its an even number
+value && value % 2 === 0 && console.log("The value is even.");
+
+// logs if divisible by 2 and 3
+value % 2 === 0 && value % 3 === 0 && console.log("The value is divisible by 2 AND 3.");
+
+// logs if its prime
+(value === 2 || value === 3 || value === 5 || value === 7) && console.log("The value is prime.");
+
