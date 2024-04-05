@@ -3,8 +3,9 @@
 //Declare initial variables
 let celsius = 100;
 let fahrenheit = 0;
+celcius += 2;
 
-// Use celcius to fahrenheit formula
+// Use celsius to fahrenheit formula
 fahrenheit = (celsius * 9/5) + 32;
 
 //print it
@@ -14,7 +15,7 @@ console.log(fahrenheit)
 //change fahrenehit to 77
 fahrenheit = 77;
 
-//use celcius to fahrenheit
+//use celsius to fahrenheit
 celsius = (fahrenheit - 32) * 5/9;
 
 //print result
