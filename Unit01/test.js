@@ -1,3 +1,5 @@
+
+
 // Part 2 of conditionals
 const prompt = require('prompt-sync')();
 
@@ -79,14 +81,13 @@ const value = Math.floor(Math.random() * 10);
 console.log(`Generated value: ${value}`);
 
 // logs if the value is zero
-value === 0 && console.log("The value is zero.");
+value == 0 && console.log("The value is zero.");
 
 // logs if its an even number
-value && value % 2 === 0 && console.log("The value is even.");
+value && value % 2 == 0 && console.log("The value is even.");
 
 // logs if divisible by 2 and 3
-value % 2 === 0 && value % 3 === 0 && console.log("The value is divisible by 2 AND 3.");
+value % 2 == 0 && value % 3 == 0 && console.log("The value is divisible by 2 AND 3.");
 
 // logs if its prime
-(value === 2 || value === 3 || value === 5 || value === 7) && console.log("The value is prime.");
-
+(value == 2 || value == 3 || value == 5 || value == 7) && console.log("The value is prime.");

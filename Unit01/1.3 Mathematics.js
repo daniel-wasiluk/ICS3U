@@ -3,7 +3,7 @@
 //Declare initial variables
 let celsius = 100;
 let fahrenheit = 0;
-celcius += 2;
+celsius += 2;
 
 // Use celsius to fahrenheit formula
 fahrenheit = (celsius * 9/5) + 32;
