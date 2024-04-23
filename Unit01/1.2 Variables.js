@@ -1,5 +1,5 @@
 //PART 1
-console.log("This is Part 1: \n")
+console.log("This is Part 1: \n");
 
 // Setting the length and width, as specified in the markdown
 let length = 10;
@@ -18,4 +18,4 @@ let first_name = "Santa";
 var last_name = "Claws";
 var last_name = "Claus";
 
-console.log("I still believe in",first_name,last_name+".")
+console.log("I still believe in",first_name,last_name+".");
