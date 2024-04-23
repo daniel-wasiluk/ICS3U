@@ -9,7 +9,7 @@ celsius += 2;
 fahrenheit = (celsius * 9/5) + 32;
 
 //print it
-console.log(fahrenheit)
+console.log(fahrenheit);
 
 //Part 2
 //change fahrenehit to 77

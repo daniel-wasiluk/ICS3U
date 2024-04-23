@@ -1,3 +1,4 @@
+// 1.4 User Input
 const prompt = require('prompt-sync')();
 
 // Print 1.4 - User Input to the console

@@ -15,4 +15,6 @@ console.log("Microsoft Corporation\nOne Microsoft Way\nRedmond, WA\n98052\n+1 42
 console.log("\n\n");
 
 //Task 3
+
+// here, we use the tab metacharacter, and the next line metacharacter (\t and \n)
 console.log("x\t o\t x\no\t x\t o\nx\t o\t x");
