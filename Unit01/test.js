@@ -1,5 +1,3 @@
-
-
 // Part 2 of conditionals
 const prompt = require('prompt-sync')();
 
