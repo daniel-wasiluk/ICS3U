@@ -1,22 +1,17 @@
-// Moved this outside the function, due to scope
-let waterTemp = "cold";
-
-function waterBoilerSwitch(){
-    if (waterTemp == "cold") {
-      waterTemp = "hot";
-      return true;
-    } else {
-      waterTemp = "cold";
-      return false;
-    }
-  }
+console.log(hotWater());
 
 function hotWater() {
-  if (waterBoilerSwitch() == false){
-    waterBoilerSwitch();
-    
-  }
+  let waterTemp = "cold";
+  waterTemp = waterBoilerSwitch(waterTemp);
   return waterTemp;
 }
 
-console.log(hotWater());
+function waterBoilerSwitch(waterTemp){
+  if (waterTemp == "cold") {
+    waterTemp = "hot";
+    return waterTemp;
+  } else {
+    waterTemp = "cold";
+    return waterTemp;
+  }
+}
